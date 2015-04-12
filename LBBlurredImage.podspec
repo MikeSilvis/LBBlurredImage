@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
                      :tag => '0.2.1' }
   s.platform     = :ios, '6.0'
   s.source_files = 'Classes', 'LBBlurredImage/UIImage*.{h,m}'
-  s.public_header_files = 'LBBlurredImage/UIImageView*.{h,m}'
   s.frameworks   = 'CoreGraphics', 'UIKit', 'Accelerate'
   s.requires_arc = true
 end
